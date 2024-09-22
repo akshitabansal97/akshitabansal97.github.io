@@ -1,0 +1,56 @@
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  padding: 5px;
+}
+
+.seekbar {
+  width: 100%;
+  padding: 5px;
+}
+
+.volume {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.dropdown-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.dropdown-btn {
+  border: 1px solid rgba(69, 71, 78, 1);
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  gap: 5px 10px;
+  align-items: center;
+
+  span {
+    font-size: 12px;
+  }
+}
+
+.select {
+  background: transparent;
+  border: none;
+  color: rgba(155, 166, 171, 1);
+}
+
+.current-time {
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.62px;
+
+  &.duration {
+    color: rgba(255, 255, 255, 0.5)
+  }
+}

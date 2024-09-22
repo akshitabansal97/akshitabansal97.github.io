@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+  width: 50%;
+  text-align: start;
+}
+
+.button-groups {
+  background: #45474E;
+  border-radius: 6px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.tab {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.62px;
+  cursor: pointer;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.tab-active {
+  background-color: #37393F;
+}
